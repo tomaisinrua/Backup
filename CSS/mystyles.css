@@ -1,0 +1,195 @@
+<style type="text/css">
+            html {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Handlee', cursive;
+            font-size: 13pt;
+            background-color:   #d0fba2;
+            padding: 10px;
+            margin: 10px;
+            background-image: url(http://www.spyderonlines.com/images/background_drawing_blue_line_texture_69444.jpg);
+            background-position: center;
+            background-size: contain;
+        }
+        h1 {
+            font-size: 15pt;
+            color:  #BFCDD7;
+            text-align: center;
+            padding: 18px 0 18px 0;
+            margin: 0 0 10px 0;
+        }
+        h1 span {
+            border: 4px dashed  #BFCDD7;
+            padding: 10px;
+        }
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        textarea {
+            font-family: 'Handlee', cursive;
+        }
+        input[type=text] {
+            font-family: 'Handlee', cursive;
+        }
+        input[type=email] {
+            font-family: 'Handlee', cursive;
+        }
+        input[type=submit] {
+            font-family: 'Handlee', cursive;
+        }
+        .img-circle {
+            border: 10px solid white;
+            border-radius: 50%;
+        }
+        .section {
+            background-color: #033C5B;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            background: -moz-linear-gradient(#033C5B, #BFCDD7);
+            background: -webkit-linear-gradient(#033C5B, #BFCDD7); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(#033C5B, #BFCDD7); /* For Opera 11.1 to 12.0 */
+            background: linear-gradient(#033C5B, #BFCDD7); /* Standard syntax */
+        }
+        #header {
+            background-image: url(http://info.csdisco.com/hubfs/blog-files/ml_header.png);
+            background-size: cover;
+        }
+        #header img {
+            display: block;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+        #header p {
+            font-size: 25pt;
+            color:  #F05A5E;
+            padding-top: 5px;
+            margin: 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .quote {
+            font-size: 12pt;
+            text-align: right;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+        }
+        table, th, td {
+            border: 2px solid #cecece;
+            border-collapse: collapse;
+            text-align: center;
+            table-layout: fixed;
+        }
+        .selected {
+            background-color: #F05A5E;
+            font-weight: bold;
+            color: white;
+        }
+        li {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        ul li { 
+             text-align: center;
+             color: #FFFFFF;
+             text-shadow: 1px 1px #033C5B;
+        }
+        a {
+            text-decoration: none; 
+        }
+        progress {
+            width: 70%;
+            height: 20px;
+            color: #3fb6b2;
+            background: #efefef;
+        }
+        progress::-webkit-progress-bar {
+            background: #BFCDD7;
+        }
+        progress::-webkit-progress-value {
+            background: #BFCDD7;
+        } 
+        progress::-moz-progress-bar {
+            color: #3fb6b2;
+            background: #BFCDD7;
+        }
+        iframe, audio {
+            display: block;
+            margin: 10px auto;
+            border: 0px;
+            border-radius: 25px;
+            padding: 0px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #f36f48;
+        }
+        form {
+            text-align: center;
+            margin-top: 0;
+        }
+        .submit {
+            background-color: #033C5B;
+            padding: 12px 45px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #BFCDD7;
+            border: none;
+            outline: none;
+            margin: 0;
+            font-weight: bold;
+        }
+        .submit:hover {
+            background-color: #BFCDD7;
+            color: #033C5B;
+        }
+        textarea {
+            height: 100px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            font-size: 11pt;
+            padding: 15px 10px 10px;
+            border: 1px solid #cecece;
+            background-color: #efefef;
+            color: #787575;
+            border-radius: 5px;
+            width: 70%;
+            outline: none;
+        }
+        .face {
+            transform: scale(0.4);
+            margin: 0 auto;
+            display: block;
+            margin-top: -35px;
+            margin-bottom: -25px;
+        }
+        #contacts img {
+            height: 50px;
+            width: 50px;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+        #contacts a {
+            text-decoration: none;
+        }
+        #contacts img:hover {
+            opacity: 0.8;
+        }
+        #contacts {
+            text-align: center;
+        }
+        .copyright {
+            font-size: 8pt;
+            text-align: right;
+            padding-bottom: 10px;
+            color: grey;
+        }
+        </style>
