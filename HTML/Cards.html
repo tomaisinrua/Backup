@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Landing Page & Cards</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<style type="text/css">
+		body{
+			background-color: #F5D76E;
+		}
+		nav{
+			font-family: roboto;
+			margin: 30px auto;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items:stretch;
+			border-radius: 10px;
+			list-style-type: none;
+			padding: 0;	
+		}
+				
+		a{
+			text-decoration: none;
+			color: #fff;
+			flex:1;
+			height: 30px;
+			font-family: Dosis;
+			padding:20px;
+			text-align: center;
+			font-size: 40px;
+			border-bottom: 1px solid #fff;
+
+		}
+		#logoNav{
+			font-size: 40px;
+			font-weight: bold;
+		}
+		#landing{
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+		}
+		#landing-message{
+			text-align: center;
+			font-family: Dosis;
+			font-size: 50px;
+			margin: 50px 20px;
+		}
+		.cards{
+        	display: flex;
+        	flex-flow: column;
+        	justify-content: space-around;
+		}
+		.card{
+			flex: 1;
+			margin: 50px 20px;
+			background-color: #eef;
+			padding: 20px;
+		   
+		}
+		.card h2{
+		        font-family: dosis;
+		        font-size: 30px;
+		        margin: 10px 0px 20px 0px;
+		}
+		.card img{
+		        width:100%;
+		        }
+		.card p{
+		        font-family: dosis;
+		        font-size: 22px;
+		        padding-bottom: 20px;
+		}
+
+		@media screen and (min-width: 700px){
+			nav{
+				width: 90%;
+				flex-flow: row;
+				align-items: baseline;
+			}
+			a{
+				font-size: 25px;
+				border: none;
+
+			}
+			#logoNav{
+				flex: 6;
+				text-align: left;
+			}
+			#landing{
+				flex-flow: row;
+				width: 80%;
+				margin: 100px auto;
+			}
+			.cards{
+				flex-flow: row nowrap;
+			}
+		}
+
+		</style>
+</head>
+<body>
+
+	<nav>
+		
+			<a id="logoNav">CHOCOBLOCK</a>
+			<a href="#">Home</a>
+			<a href="#">Projects</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+			<a href="#">Photos</a>
+		
+
+	</nav>
+
+	<section id="landing">
+		<div id="landing-message">
+			<h2>Make Creative Clever Fun Apps. Simple.</h2>
+		</div>
+		<div id="landing-graphic">
+			<img id="landing-image" src="laptop.png" alt="Picture of a Laptop" width="400">
+		</div>
+	</section>
+
+	<section class="cards">
+        <div class="card">
+                <img src="graphic1.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div> 
+
+        <div class="card">
+                <img src="graphic2.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div>
+
+        <div class="card">
+                <img src="graphic3.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div>
+	</section>
+
+</body>
+</html>
