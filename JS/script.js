@@ -2,8 +2,8 @@ var currentPos = 0;
 var intervalHandle;
 
 function beginAnimate() {
-	document.getElementById("contacts").style.position = "absolute";
-	document.getElementById("contacts").style.left = "0px";
+    document.getElementById("contacts").style.position = "absolute";
+    document.getElementById("contacts").style.left = "0px";
     document.getElementById("contacts").style.top = "100px";
     // cause the animateBox function to be called
     intervalHandle = setInterval(animateBox,50);
@@ -14,7 +14,7 @@ function animateBox() {
     currentPos+=3;
     document.getElementById("contacts").style.left = currentPos + "px";
     // 
-    if ( currentPos > 900) {
+    if ( currentPos > window.innerWidth   -250) {
         // clear interval
         clearInterval(intervalHandle);
         // reset custom inline styles
@@ -25,5 +25,5 @@ function animateBox() {
 }
 
 window.onload =  function() {
-	setTimeout(beginAnimate,2000);
+    setTimeout(beginAnimate,2000);
 };
